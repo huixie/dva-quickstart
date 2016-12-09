@@ -8,7 +8,7 @@ import Products from './routes/Products';
 
 export default function({ history }) {
   return (
-    <Router history={history}>
+    <Router histo ry={history}>
       <Route path="/" component={IndexPage} />
       <Route path="/products" component={Products} />
     </Router>
